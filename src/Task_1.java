@@ -28,9 +28,9 @@ public class Task_1 {
   }
   private static Map<String, Integer> criterionNotebook() {
     Map <String, Integer> choose = new LinkedHashMap<>();
-    System.out.print("Введиите объем необходимой оперативной памяти: ");
+    System.out.print("Введите объем необходимой оперативной памяти: ");
     int ram = scanner.nextInt();
-    System.out.print("Введиите необходимый объем жестого диска: ");
+    System.out.print("Введите необходимый объем жестого диска: ");
     int ssd = scanner.nextInt();
     choose.put("Ram", ram);
     choose.put("Ssd", ssd);
